@@ -1,7 +1,9 @@
 import streamlit as st
 
 def show():
-  
+
+    st.title('Quiz Page')
+    # Add content for the contact page here
     st.markdown(
         """
         <style>
@@ -47,8 +49,6 @@ def show():
     }
     ]
    
-
-    st.title('Lunar Legion')
     
     subtopic = {
         "Programming Languages":["JavaScript", "Python", "C++", "Java"],
